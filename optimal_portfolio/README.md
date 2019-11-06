@@ -13,14 +13,12 @@ maximizes the earnings while minimizing the risks.
 
 There are n stocks in the Stock Market, numbered from 1 – n. For each stock r, there
 is an assigned fraction r<sub>i</sub> such that 0<r<sub>i</sub>≤1. This fraction indicates the share of a
-particular stock in the portfolio, such that the portfolio is optimal. It follows that ![formula1](http://bit.ly/2Chw77Z)
+particular stock in the portfolio, such that the portfolio is optimal. It follows that ![formula1](https://raw.github.com/richdayandnight/algorithms/master/optimal_portfolio/equation1.png)
 
 Let s<sub>i</sub> indicate the number of stock i stocks already bought by the
-investor, and let 
+investor, and let ![equation2](https://raw.github.com/richdayandnight/algorithms/master/optimal_portfolio/equation2.png)
 
-![equation2](http://bit.ly/33hAonI)
-
-The portfolio is optimal if the following property is ![equation3](http://bit.ly/2qnVm5Q)
+The portfolio is optimal if the following property is ![equation3](https://raw.github.com/richdayandnight/algorithms/master/optimal_portfolio/equation3.png)
 
 The goal of this code is to determine the number of stocks an investor can still buy to
 keep his portfolio optimal. If there is no limit in the number of stocks, then output,
@@ -30,7 +28,7 @@ keep his portfolio optimal. If there is no limit in the number of stocks, then o
 Each input test case has three lines. The first line is consists of the number of
 available stocks n and the total stocks already bought (k). The second line is a series
 of n integers that will eventually correspond to the fraction contribution to the optimal
-portfolio (i.e: Each ai in the second line corresponds to the following fraction ri : ![equation4](http://bit.ly/36EsCXh).  
+portfolio (i.e: Each ai in the second line corresponds to the following fraction ri : ![equation4](https://raw.github.com/richdayandnight/algorithms/master/optimal_portfolio/equation4.png).  
 
 The third line is consists of k numbers indicating the stock bought in
 each of the previous k days.
