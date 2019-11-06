@@ -23,7 +23,7 @@ investor, and let
 
 The portfolio is optimal if the following property is
 
-![equation3](http://www.sciweavers.org/tex2img.php?eq=%5Clfloor%20m%20r_%7Bi%7D%20%5Crfloor%20%3D%20s_%7Bi%7D%3D%20%5Clceil%20m%20r_%7Bi%7D%20%5Crceil%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![equation3](http://bit.ly/2qnVm5Q)
 
 The goal of this code is to determine the number of stocks an investor can still buy to
 keep his portfolio optimal. If there is no limit in the number of stocks, then output,
@@ -33,8 +33,13 @@ keep his portfolio optimal. If there is no limit in the number of stocks, then o
 Each input test case has three lines. The first line is consists of the number of
 available stocks n and the total stocks already bought (k). The second line is a series
 of n integers that will eventually correspond to the fraction contribution to the optimal
-portfolio (i.e: Each ai in the second line corresponds to the following fraction ri :
-![equation4](http://www.sciweavers.org/tex2img.php?eq=r_%7Bi%7D%20%3D%20%5Cfrac%7Ba_%7Bi%7D%7D%7B%5Csum_%7Bi%3D1%7D%5Em%20a_%7Bi%7D%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0). The third line is consists of k numbers indicating the stock bought in
+portfolio (i.e: Each ai in the second line corresponds to the following fraction ri :  
+
+![equation4](http://www.sciweavers.org/upload/Tex2Img_1573007415/render.png).  
+
+r_{i} = \frac{a_{i}}{\sum_{i=1}^m a_{i}}
+
+The third line is consists of k numbers indicating the stock bought in
 each of the previous k days.
 
 ## Output Format:
