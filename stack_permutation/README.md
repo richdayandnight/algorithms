@@ -1,6 +1,21 @@
 # Stack Permutation
 date coded: August 2016
 
+## How to run C code
+
+- Install gcc compiler
+```
+sudo apt-get install build-essential
+```
+- Compile the program
+```
+gcc -o stack stack_permutation.c
+```
+- Run the program
+```
+./stack
+```
+
 ## Directions:
 
 - Create a program that will solve the problem below.
