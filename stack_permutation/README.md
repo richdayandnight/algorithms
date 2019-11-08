@@ -15,6 +15,7 @@ gcc -o stack stack_permutation.c
 ```
 ./stack
 ```
+- See output text for results (output.txt)
 
 ## Directions:
 

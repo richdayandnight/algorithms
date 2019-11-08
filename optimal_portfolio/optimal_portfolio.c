@@ -117,14 +117,14 @@ int main()
         if(firstWrite == 1)
         {
             if(maxStock >= 2)
-                fprintf(output, "NO LIMIT", maxStock);
+                fprintf(output, "NO LIMIT");
             else
                 fprintf(output, "%d" ,maxStock);
         }
         else
         {
             if(maxStock >= 2)
-                fprintf(output, "\nNO LIMIT", maxStock);
+                fprintf(output, "\nNO LIMIT");
             else
                 fprintf(output, "\n%d" ,maxStock);
         }

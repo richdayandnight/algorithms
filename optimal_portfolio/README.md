@@ -1,6 +1,22 @@
 # Optimal Portfolio
 date coded: November 2016
 
+## How to run C code
+
+- Install gcc compiler
+```
+sudo apt-get install build-essential
+```
+- Compile the program
+```
+gcc -o optimal optimal_portfolio.c -lm
+```
+- Run the program
+```
+./optimal
+```
+- See output text for results (output.txt)
+
 ## Directions:
 
 - Create a program that will solve the problem below.
