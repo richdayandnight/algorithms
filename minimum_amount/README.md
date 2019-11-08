@@ -1,5 +1,6 @@
 # Minimum amount
-date coded: November 2016
+date coded: November 2016  
+uses: dijkstra algo
 
 ## How to run C code
 

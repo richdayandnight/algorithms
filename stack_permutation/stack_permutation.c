@@ -83,11 +83,21 @@ void POP(Stack *S, StackElemType *x)
 }
 
 
-int main()
+int main(int argc,char* argv[])
 {   
+    int counter; 
+    char *fileName = "input.txt";
+    printf("Program Name Is: %s",argv[0]); 
+    if(argc==1) 
+        printf("\nInput filename is: input.txt\n"); 
+    if(argc>=2) 
+    { 
+        fileName = argv[1];
+        printf("\nInput filename is: %s\n", fileName); 
+    } 
     StackElemType pop1;
     FILE *file, *output;
-    file = fopen ("input.txt", "r");
+    file = fopen (fileName, "r");
     output = fopen ("output.txt", "w");
     int num, firstWrite = 0;
     while(fscanf(file, "%d:", &num) == 1)

@@ -11,10 +11,19 @@ sudo apt-get install build-essential
 ```
 gcc -o stack stack_permutation.c
 ```
-- Run the program
-```
-./stack
-```
+- Run the program  
+    Method 1:  
+        ```
+        ./stack
+        ```  
+        (uses input.txt as default input file)  
+    
+    Method 2:
+        ```
+        ./stack test_input.txt
+        ```  
+        (uses test_input.txt as input file)
+
 - See output text for results (output.txt)
 
 ## Directions:

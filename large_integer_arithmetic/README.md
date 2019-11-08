@@ -1,5 +1,23 @@
 # Large Integer Arithmetic
-date coded: October 2016
+date coded: October 2016  
+uses: queues  
+<span style="color:red">has bugs</span>
+
+## How to run C code
+
+- Install gcc compiler
+```
+sudo apt-get install build-essential
+```
+- Compile the program
+```
+gcc -o large large_integer_arithmetic.c
+```
+- Run the program
+```
+./large
+```
+- See output text for results (output.txt)
 
 ## Directions:
 
