@@ -1,6 +1,22 @@
 # Minimum amount
 date coded: November 2016
 
+## How to run C code
+
+- Install gcc compiler
+```
+sudo apt-get install build-essential
+```
+- Compile the program
+```
+gcc -o minimum minimum_amount.c -lm
+```
+- Run the program
+```
+./minimum
+```
+- See output text for results (output.txt)
+
 ## Directions:
 - Create a program that will solve the problem below.
 - The program must written in the C programming language, using only the
